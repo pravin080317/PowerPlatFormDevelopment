@@ -1,3 +1,4 @@
 
 Custom Connectors in PowerApp, PowerAutomate, Logic Apps
-![CustomConnectorbyPravinn](https://user-images.githubusercontent.com/35328578/205021827-20bf5925-6629-49c0-8836-0ec551b76ea4.jpg)
+
+![CustomConnectorOverViewImageByPraveen](https://user-images.githubusercontent.com/35328578/205033709-4a3cccd0-cc59-4aec-b912-35867a077405.png)
