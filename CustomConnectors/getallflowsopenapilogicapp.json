@@ -1,0 +1,69 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "version": "1.0.0",
+        "title": "Get All Flows From Environment",
+        "description": "Demo of Getting all flows from an environment"
+    },
+    "host": "api.flow.microsoft.com",
+    "basePath": "/",
+    "schemes": [
+        "https"
+    ],
+    "consumes": [],
+    "produces": [
+        "application/json"
+    ],
+    "paths": {
+        "/Providers/Microsoft.ProcessSimple/scopes/admin/environments/{environment_name}/flows": {
+            "get": {
+                "summary": "Returns All the flows in an environment",
+                "description": "This api will returns all flows and its details in a given environment",
+                "operationId": "GetAllFLows",
+                "x-ms-visibility": "important",
+                "parameters": [
+                    {
+                        "name": "environment_name",
+                        "in": "path",
+                        "required": true,
+                        "type": "string",
+                        "default": "defaultenvironmentid",
+                        "x-ms-visibility": "important",
+                        "description": "Please provide the environment ID"
+                    },
+                    {
+                        "name": "api-version",
+                        "in": "query",
+                        "required": true,
+                        "type": "string",
+                        "default": "2016-11-01-beta"
+                    }
+                ],
+                "responses": {
+                    "default": {
+                        "description": "default",
+                        "schema": {}
+                    }
+                }
+            }
+        }
+    },
+    "definitions": {},
+    "parameters": {},
+    "responses": {},
+    "securityDefinitions": {
+        "oauth2_auth": {
+            "type": "oauth2",
+            "flow": "accessCode",
+            "authorizationUrl": "https://login.windows.net/common/oauth2/authorize",
+            "tokenUrl": "https://login.windows.net/common/oauth2/authorize",
+            "scopes": {}
+        }
+    },
+    "security": [
+        {
+            "oauth2_auth": []
+        }
+    ],
+    "tags": []
+}
