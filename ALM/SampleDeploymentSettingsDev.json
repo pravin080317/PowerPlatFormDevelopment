@@ -1,0 +1,15 @@
+{
+  "EnvironmentVariables": [
+    {
+      "SchemaName": "cr225_FlowHostURL",
+      "Value": "api.flow.microsoft.com"
+    }
+  ],
+  "ConnectionReferences": [
+    {
+      "LogicalName": "cr225_sharedgetallflows5f0ce1f241ef06e9f35fdee42c6afb8ef514_ee098",
+      "ConnectionId": "",      
+      "ConnectorId": "/providers/Microsoft.PowerApps/apis/shared_getallflows-5f0ce1f241ef06e9f3-5fdee42c6afb8ef514"
+    }
+  ]
+}
